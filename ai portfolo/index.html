@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Portfolio — Coder</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700;900&family=Space+Grotesk:wght@400;600;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Crazy layer -->
+  <div class="cursor-glow" aria-hidden="true"></div>
+  <div class="noise" aria-hidden="true"></div>
+  <div class="progress" aria-hidden="true"></div>
+
+  <main id="main">
+
+    <!-- HERO -->
+    <section id="image">
+      <nav class="magnetic-wrap">
+        <a href="#aboutme" class="magnetic">about</a>
+        <a href="#projects" class="magnetic">project</a>
+        <a href="#links" class="magnetic">Get in touch</a>
+      </nav>
+
+      <div class="hero-body">
+        <div id="subtext" class="reveal">Hey, I'm a</div>
+
+        <div id="midtxt">
+          <h1 id="maincon" data-scramble="CODER">CODER</h1>
+          <div id="conleft" class="reveal">Master in</div>
+        </div>
+
+        <div id="goodat">
+          <div class="skill tilt" id="a"><span>01</span><h3>Web Dev</h3><p>HTML · CSS · JS</p></div>
+          <div class="skill tilt" id="b"><span>02</span><h3>UI / UX</h3><p>Design systems</p></div>
+          <div class="skill tilt" id="c"><span>03</span><h3>Backend</h3><p>APIs · DBs</p></div>
+          <div class="skill tilt" id="d"><span>04</span><h3>AI / ML</h3><p>Models · Data</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- MARQUEE / PROJECTS -->
+    <section class="landpage" id="projects">
+      <div class="marquee">
+        <div class="track">
+          <div class="group">
+            <div class="card"><span>01</span><h3>RAA Earthquake</h3><p>Real-time seismic alert system</p></div>
+            <div class="card"><span>02</span><h3>StudyOS</h3><p>Focus + study planner</p></div>
+            <div class="card"><span>03</span><h3>Portfolio</h3><p>This very site</p></div>
+            <div class="card"><span>04</span><h3>Coming Soon</h3><p>Something wild</p></div>
+          </div>
+          <div class="group" aria-hidden="true">
+            <div class="card"><span>01</span><h3>RAA Earthquake</h3><p>Real-time seismic alert system</p></div>
+            <div class="card"><span>02</span><h3>StudyOS</h3><p>Focus + study planner</p></div>
+            <div class="card"><span>03</span><h3>Portfolio</h3><p>This very site</p></div>
+            <div class="card"><span>04</span><h3>Coming Soon</h3><p>Something wild</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="aboutme">
+      <h2 class="reveal">About me<span class="dot">.</span></h2>
+      <div id="diary" class="reveal">
+        <p>
+          I'm a coder who likes turning weird ideas into things people can actually click.
+          I build fast, clean interfaces and I care about the small details — motion,
+          spacing, and how a page <em>feels</em>. Replace this text with your own story.
+        </p>
+      </div>
+    </section>
+
+    <!-- LINKS -->
+    <section id="links">
+      <div id="socialacc" class="reveal">My Social Pages & Project Links</div>
+      <div id="sociallink">
+        <a class="link-row reveal" href="#" id="github"><span>Github</span><i>↗</i></a>
+        <a class="link-row reveal" href="#" id="portfolio"><span>Portfolio</span><i>↗</i></a>
+        <a class="link-row reveal" href="#" id="Discord"><span>Discord</span><i>↗</i></a>
+        <a class="link-row reveal" href="#" id="hire"><span>For hiring purpose</span><i>↗</i></a>
+        <a class="link-row reveal" href="#" id="pjt1"><span>Project — RAA Earthquake</span><i>↗</i></a>
+        <a class="link-row reveal" href="#" id="pjt2"><span>Project — StudyOS</span><i>↗</i></a>
+      </div>
+    </section>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
